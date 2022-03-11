@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_items",
+  "info": {
+    "singularName": "menu-item",
+    "pluralName": "menu-items",
+    "displayName": "Menu Item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "menu_section": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::menu-section.menu-section",
+      "inversedBy": "menu_items"
+    },
+    "options": {
+      "type": "json"
+    },
+    "image": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::image.image"
+    }
+  }
+}
