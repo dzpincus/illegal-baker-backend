@@ -31,6 +31,21 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::image.image"
+    },
+    "description": {
+      "type": "text"
+    },
+    "visible": {
+      "type": "boolean"
+    },
+    "vegan": {
+      "type": "boolean"
+    },
+    "vegetarian": {
+      "type": "boolean"
+    },
+    "glutenFree": {
+      "type": "boolean"
     }
   }
 }

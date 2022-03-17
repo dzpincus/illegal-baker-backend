@@ -4,7 +4,8 @@
   "info": {
     "singularName": "menu-section",
     "pluralName": "menu-sections",
-    "displayName": "Menu Section"
+    "displayName": "Menu Section",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,13 @@
       "relation": "oneToMany",
       "target": "api::menu-item.menu-item",
       "mappedBy": "menu_section"
+    },
+    "order": {
+      "type": "json"
+    },
+    "visible": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
