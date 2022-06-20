@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "orders_settings",
+  "info": {
+    "singularName": "order-settings",
+    "pluralName": "orders-settings",
+    "displayName": "Order Settings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "delivery_locations": {
+      "type": "json"
+    },
+    "pickup_locations": {
+      "type": "json"
+    }
+  }
+}

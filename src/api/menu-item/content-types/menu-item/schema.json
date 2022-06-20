@@ -18,9 +18,9 @@
     "price": {
       "type": "decimal"
     },
-    "menu_section": {
+    "menu_sections": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::menu-section.menu-section",
       "inversedBy": "menu_items"
     },
