@@ -19,7 +19,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['http://localhost:8080', 'https://charming-dango-51921f.netlify.app']
+      origin: ['http://localhost:3000', 'https://charming-dango-51921f.netlify.app']
     }
   },
   'strapi::poweredBy',
