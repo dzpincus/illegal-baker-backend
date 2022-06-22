@@ -15,13 +15,12 @@ module.exports = [
     },
   },
   {
-    name: "strapi::cors",
+    name: 'strapi::cors',
     config: {
-      origin: ["*"],
-      methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"],
-      headers: ["Content-Type", "Authorization", "Origin", "Accept"],
-      keepHeaderOnError: true,
-    },
+      enabled: true,
+      headers: '*',
+      origin: ['http://localhost:8080', 'https://charming-dango-51921f.netlify.app']
+    }
   },
   'strapi::poweredBy',
   'strapi::logger',
