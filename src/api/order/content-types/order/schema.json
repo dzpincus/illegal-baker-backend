@@ -18,9 +18,18 @@
     "order_items": {
       "type": "json"
     },
-    "uid": {
-      "type": "uid",
-      "required": false
+    "total": {
+      "type": "decimal"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "new",
+        "accepted",
+        "rejected",
+        "complete"
+      ],
+      "default": "new"
     }
   }
 }
