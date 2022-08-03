@@ -1,6 +1,6 @@
 "use strict";
 
-const stripe = require("stripe")(process.env.STRAPI_SECRET);
+const stripe = require("stripe")(process.env.STRIPE_SECRET);
 
 module.exports = {
   // GET /hello
