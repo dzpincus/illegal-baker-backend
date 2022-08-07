@@ -29,6 +29,10 @@
     "rotate": {
       "type": "integer",
       "default": 0
+    },
+    "gallery": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
