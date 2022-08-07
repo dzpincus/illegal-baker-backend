@@ -22,7 +22,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::menu-section.menu-section",
-      "inversedBy": "menu_items"
+      "mappedBy": "menu_items"
     },
     "options": {
       "type": "json"
