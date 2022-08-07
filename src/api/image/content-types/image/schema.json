@@ -25,6 +25,10 @@
         "videos",
         "audios"
       ]
+    },
+    "rotate": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
