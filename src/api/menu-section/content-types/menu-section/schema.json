@@ -15,7 +15,7 @@
     "name": {
       "type": "string"
     },
-    "itemsOrder": {
+    "order": {
       "type": "json"
     },
     "visible": {
@@ -28,7 +28,7 @@
       "target": "api::menu-item.menu-item",
       "inversedBy": "menu_sections"
     },
-    "order": {
+    "selfOrder": {
       "type": "integer"
     }
   }
