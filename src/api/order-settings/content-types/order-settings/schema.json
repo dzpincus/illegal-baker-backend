@@ -17,6 +17,12 @@
     },
     "pickup_locations": {
       "type": "json"
+    },
+    "ordering_enabled": {
+      "type": "boolean"
+    },
+    "disabled_ordering_message": {
+      "type": "string"
     }
   }
 }
